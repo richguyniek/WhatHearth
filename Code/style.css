@@ -61,3 +61,18 @@ i:hover::after {
     
 }
 
+.hearth{
+    width: 400px;
+    
+}
+
+.bird{
+    width:20px;
+    height: 20px;
+}
+
+#position1{
+    position:absolute;
+    top:120px;
+    left:110px
+}
