@@ -64,6 +64,14 @@ i:hover::after {
     
 }
 
+.info-container{
+    position: absolute;
+    bottom:-250px;
+    width: 375px;
+    height:200px;
+    
+}
+
 .hearth{
     width: 600px;
     
