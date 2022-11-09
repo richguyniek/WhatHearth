@@ -1,4 +1,10 @@
 @media screen (min-width: 375px){
 
-    
+    .hearth{
+       max-width:1200px;
+    }
+ 
+    .flex-container{
+       max-width:1200px;
+    }
 }

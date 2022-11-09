@@ -78,7 +78,7 @@ i:hover::after {
 .flower{
     width:40px;
     height: 40px;
-
+   
 }
 
 .butterfly1{
@@ -95,28 +95,129 @@ i:hover::after {
 
 #position1{
     position:absolute;
-    top:53px;
-    left:59px
-
+    top:60px;
+    left:63px;
+    width:45px;
+    
 }
 
 #position2{
     position: absolute;
-    top:194px;
-    right:106px
-
+    top: 128px;
+    right: 81px;
+    width: 47px;
 }
 
 #position3{
     position: absolute;
-    top:204px;
-    right:164px
-
+    top:175px;
+    right:160px;
+    width:47px
 }
 
 #position4{
     position: absolute;
-    top:100px;
-    right:100px
+    top:24px;
+    right:122px;
+    width:50px;
+}
 
+#position5{
+    position: absolute;
+    top:88px;
+    right:246px;
+
+}
+
+#position6{
+    position: absolute;
+    top:300px;
+    right:228px;
+
+}
+
+#position7{
+    position: absolute;
+    top:209px;
+    right:229px;
+    width:35px;
+    
+}
+
+#position8{
+    position: absolute;
+    top:370px;
+    right:105px;
+    
+}
+
+@media screen and (min-width: 376px){
+
+    .hearth{
+       min-width:1000px;
+    
+    }
+ 
+    .flex-container{
+       min-width: fit-content;
+    
+    }
+
+    #position1{
+        position: absolute;
+        top: 117px;
+        left: 312px;
+        width:45px;
+
+    }
+
+    #position2{
+        position: absolute;
+        top: 220px;
+        right: 328px;
+        width:55px;
+        }
+
+    #position3{
+        position: absolute;
+        top: 306px;
+        right: 450px;
+        width:60px;
+        
+        }
+
+    #position4{
+        position: absolute;
+        top: 52px;
+        right: 390px;
+        width:70px;
+         }
+
+    #position5{
+        position: absolute;
+        top: 154px;
+        right: 617px;
+            
+        }
+
+    #position6{
+        position: absolute;
+        top: 517px;
+        right: 584px;
+            
+        }
+
+    #position7{
+        position: absolute;
+        top: 360px;
+        right: 589px;
+                
+        }
+
+    #position8{
+        position: absolute;
+        top: 671px;
+        right: 415px;
+                    
+        }
 }
