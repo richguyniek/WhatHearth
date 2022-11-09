@@ -18,7 +18,7 @@ body{
 
 .social-media{
     position:absolute;
-    bottom:10px;
+    bottom:5px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -26,22 +26,6 @@ body{
     width: 300px;
     height:75px;
     order:2;
-    
-}
-
-.flex-container{
-    width: 375px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    
-}
-
-
-.informationbox1{
-
     
 }
 
@@ -70,10 +54,15 @@ i:hover::after {
     border-color: var(--magenta);
 }
 
-
-
-
-
+.flex-container{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
 
 .hearth{
     width: 600px;
