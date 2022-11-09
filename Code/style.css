@@ -4,3 +4,75 @@
     padding: 0;
     text-decoration: none;
 }
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black ;
+    font-family: "Open Sans";
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 300px;
+    height:75px;
+    
+}
+
+i {
+    position: relative;
+    color: white;
+    font-size: 20px;
+}
+
+i::after {
+    position: absolute;
+    content: "";
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    left: -14px;
+    bottom: -11px;
+}
+
+i:hover {
+    color: var(--magenta);
+}
+
+i:hover::after {
+    border-color: var(--magenta);
+}
+
+.flex-container{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.hearth{
+    width: 400px;
+    
+}
+
+.bird{
+    width:20px;
+    height: 20px;
+}
+
+#position1{
+    position:absolute;
+    top:120px;
+    left:110px
+}
